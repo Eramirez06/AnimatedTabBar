@@ -7,8 +7,14 @@ module.exports = {
         root: ['./src'],
         alias: {
           navigation: './src/navigation',
+          screens: './src/screens',
+          hooks: './src/hooks',
+          utils: './src/utils',
+          components: './src/components',
+          assets: './src/assets',
         },
       },
     ],
+    'react-native-reanimated/plugin',
   ],
 };
